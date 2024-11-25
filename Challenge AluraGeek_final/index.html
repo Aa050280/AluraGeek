@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./Imgs/AluraGeek.png" alt="logo Alura">
+        <img src="./Imgs/coracao.png" alt="tres coracoes">
+    </header>
+    <main class="container_principal">
+        <section>
+            <h1>Meus Produtos:</h1>
+            <div data-product class="container_products"></div>
+        </section>
+
+        <section>
+            <h1>Adicionar Produtos:</h1>
+
+            <form class="container_formulario" data-form>
+                <input data-name placeholder="nome..." type="text">
+                <input data-price placeholder="preço..." type="text">
+                <input data-image placeholder="imagem..." type="text">
+                <span data-mensagem class="mensagemErro"></span>
+                <div class="container_botoes">
+                    <button type="submit" class="botao_enviar" id="botao">Enviar...</button>
+                    <button type="reset" class="botao_limpar" id="botao">Limpar...</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="container_rodape">
+        <div>
+            <img src="./Imgs/AluraGeek.png" alt="logo Alura">
+            <img src="./Imgs/coracao.png" alt="tres coracoes">
+        </div>
+        <p>Desenvolvido por Andreia Arruda</p>
+        <small>Alura Latam 2024</small>
+    </footer>
+        <script type="module" src="./main.js"></script>
+</body>
+</html>

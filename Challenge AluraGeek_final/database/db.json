@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "Boneco Funko Smurfette",
+      "price": "149",
+      "image": "https://i.postimg.cc/Kz0dCJMW/Smurfett.png",
+      "id": 1
+    },
+    {
+      "name": "Boneco Funko Coraline",
+      "price": "161",
+      "image": "https://i.postimg.cc/LX2C9LSM/Coraline.png",
+      "id": 2
+    },
+    {
+      "name": "Boneco Funko Eleven",
+      "price": "159",
+      "image": "https://i.postimg.cc/w38szcKX/Eleven.png",
+      "id": 3
+    },
+    {
+      "name": "Boneco Funko E.T.",
+      "price": "126",
+      "image": "https://i.postimg.cc/VvMWXNmF/ET-menina.png",
+      "id": 4
+    },
+    {
+      "name": "Boneco Funko Jessie",
+      "price": "177",
+      "image": "https://i.postimg.cc/CxDpdG3Z/Jessie.png",
+      "id": 5
+    },
+    {
+      "name": "Boneco Funko Dorothy",
+      "price": "165",
+      "image": "https://i.postimg.cc/wjDQ1M0x/Dorothy.png",
+      "id": 6
+    }
+  ]
+}
